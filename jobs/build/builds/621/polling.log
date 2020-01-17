@@ -1,0 +1,11 @@
+Started on Jan 17, 2020 8:04:06 AM
+Started by event from 140.82.115.248 ⇒ http://3.14.6.93:8080/github-webhook/ on Fri Jan 17 08:04:06 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision ee3d68e8713a6005a3d614a4c538962ce238af60 (origin/rl-br-2)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/Ashwini990/central_repo.git # timeout=10
+Found 1 remote heads on https://github.com/Ashwini990/central_repo.git
+[poll] Latest remote head revision on refs/heads/rl-br-2 is: 7a2cfb9528d666e0a3689b28f1eacdc457463c26
+Done. Took 0.23 sec
+Changes found

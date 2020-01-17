@@ -1,0 +1,20 @@
+Started by user [8mha:////4LpmYY3tlv7OE+VHJX8PnBtgPV8Vu8lp68WT+MapOkZAAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZ+/dLi1CL9xOKM8sy8zPhcAHKPkArEAAAA[0mAshwiniM
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Proj1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Ashwini990/central_repo.git # timeout=10
+Using shallow fetch with depth 1
+Fetching upstream changes from https://github.com/Ashwini990/central_repo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress --depth=1 -- https://github.com/Ashwini990/central_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/rl-br-2^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/rl-br-2^{commit} # timeout=10
+Checking out Revision 8eff258774f07a95078bf5d7f6a72bb386fa3c9b (refs/remotes/origin/rl-br-2)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8eff258774f07a95078bf5d7f6a72bb386fa3c9b # timeout=10
+Commit message: "reverse"
+First time build. Skipping changelog.
+[Proj1] $ /bin/sh -xe /tmp/jenkins8491954301741686410.sh
+Finished: SUCCESS

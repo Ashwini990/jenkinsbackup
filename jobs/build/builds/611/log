@@ -1,0 +1,19 @@
+Started by user [8mha:////4LpmYY3tlv7OE+VHJX8PnBtgPV8Vu8lp68WT+MapOkZAAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZ+/dLi1CL9xOKM8sy8zPhcAHKPkArEAAAA[0mAshwiniM
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/build
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Ashwini990/central_repo.git # timeout=10
+Fetching upstream changes from https://github.com/Ashwini990/central_repo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/Ashwini990/central_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/rl-br-2^{commit} # timeout=10
+Checking out Revision 1b32b049ce6d3450779dc87f7822d43387bf6984 (origin/rl-br-2)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1b32b049ce6d3450779dc87f7822d43387bf6984 # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 1b32b049ce6d3450779dc87f7822d43387bf6984 # timeout=10
+[build] $ /bin/sh -xe /tmp/jenkins7705514954880363747.sh
+Triggering a new build of [8mha:////4LVZXOzmazPCiyzae5Rh4TXhz7xGPiMrt01//fLaJ4erAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy
+Finished: SUCCESS
